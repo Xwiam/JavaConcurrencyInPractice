@@ -1,0 +1,1 @@
+record the procedure and thinking of reading Java Concurrency In Practice
