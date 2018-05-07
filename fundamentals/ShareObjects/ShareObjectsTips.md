@@ -21,3 +21,11 @@ writing a volatile variable is like exiting a synchronized block and reading a v
 7、Locking can guarantee both visibility and atomicity;volatile variables can only guarantee visibility.
 
 8、You can use volatile variables only when writing to the variable do not depend on its current value.
+
+9、The language and core libraries of java provide mechanisms that can help in maintaining thread confinement --local variables and the ThreadLocal class.
+
+10、Immutable objects can be used safely by any thread without additional synchronization,even when synchronization is not used to publish them.
+
+11、Static initializers are executed by the JVM at class initialization time;because of internal synchronization in the JVM,this mechanism is guaranteed
+
+to safely publish any objects initialized in this way.
